@@ -1,7 +1,7 @@
 'use strict';
 
 var tap = require('tap');
-var forEach = require('for-each');
+var forEach = require("../pre-bundled/node_modules/for-each");
 var tape = require('../');
 var concat = require('concat-stream');
 

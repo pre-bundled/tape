@@ -3,8 +3,8 @@
 var tape = require('../');
 var tap = require('tap');
 var concat = require('concat-stream');
-var inspect = require('object-inspect');
-var assign = require('object.assign');
+var inspect = require("../pre-bundled/node_modules/object-inspect");
+var assign = require("../pre-bundled/node_modules/object.assign");
 
 var stripFullStack = require('./common').stripFullStack;
 

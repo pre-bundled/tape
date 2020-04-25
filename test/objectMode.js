@@ -2,8 +2,8 @@
 
 var tap = require('tap');
 var tape = require('../');
-var forEach = require('for-each');
-var through = require('through');
+var forEach = require("../pre-bundled/node_modules/for-each");
+var through = require("../pre-bundled/node_modules/through");
 
 tap.test('object results', function (assert) {
     var printer = through({ objectMode: true });

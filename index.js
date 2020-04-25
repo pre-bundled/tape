@@ -1,10 +1,10 @@
 'use strict';
 
-var defined = require('defined');
+var defined = require("./pre-bundled/node_modules/defined");
 var createDefaultStream = require('./lib/default_stream');
 var Test = require('./lib/test');
 var createResult = require('./lib/results');
-var through = require('through');
+var through = require("./pre-bundled/node_modules/through");
 
 var canEmitExit = typeof process !== 'undefined' && process
     && typeof process.on === 'function' && process.browser !== true

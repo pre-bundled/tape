@@ -2,12 +2,12 @@
 
 'use strict';
 
-var resolveModule = require('resolve').sync;
+var resolveModule = require("../pre-bundled/node_modules/resolve").sync;
 var resolvePath = require('path').resolve;
 var readFileSync = require('fs').readFileSync;
-var parseOpts = require('minimist');
-var glob = require('glob');
-var ignore = require('dotignore');
+var parseOpts = require("../pre-bundled/node_modules/minimist");
+var glob = require("../pre-bundled/node_modules/glob");
+var ignore = require("../pre-bundled/node_modules/dotignore");
 
 var opts = parseOpts(process.argv.slice(2), {
     alias: { r: 'require', i: 'ignore' },

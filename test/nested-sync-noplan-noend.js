@@ -1,6 +1,6 @@
 var tape = require('../');
 var tap = require('tap');
-var trim = require('string.prototype.trim');
+var trim = require("../pre-bundled/node_modules/string.prototype.trim");
 
 tap.test('nested sync test without plan or end', function (tt) {
     tt.plan(1);

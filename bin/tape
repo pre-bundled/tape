@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var path = require('path');
-var glob = require('glob');
+var glob = require("../pre-bundled/node_modules/glob");
 
 process.argv.slice(2).forEach(function (arg) {
     glob(arg, function (err, files) {

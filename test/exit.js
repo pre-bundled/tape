@@ -1,6 +1,6 @@
 var tap = require('tap');
 var spawn = require('child_process').spawn;
-var trim = require('string.prototype.trim');
+var trim = require("../pre-bundled/node_modules/string.prototype.trim");
 
 tap.test('exit ok', function (t) {
     t.plan(2);

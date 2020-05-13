@@ -1,6 +1,6 @@
 var tap = require("tap");
 var tape = require("../");
-var trim = require('string.prototype.trim');
+var trim = require("../pre-bundled/node_modules/string.prototype.trim");
 
 tap.test("tape assert.end as callback", function (tt) {
     var test = tape.createHarness({ exit: false })

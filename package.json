@@ -1,5 +1,5 @@
 {
-  "name": "tape",
+  "name": "@pre-bundled/tape",
   "version": "4.5.0",
   "description": "tap-producing test harness for node and browsers",
   "main": "index.js",
@@ -8,20 +8,7 @@
     "example": "example",
     "test": "test"
   },
-  "dependencies": {
-    "deep-equal": "~1.0.1",
-    "defined": "~1.0.0",
-    "function-bind": "~1.1.0",
-    "glob": "~7.0.0",
-    "has": "~1.0.1",
-    "inherits": "~2.0.1",
-    "minimist": "~1.2.0",
-    "object-inspect": "~1.1.0",
-    "resolve": "~1.1.7",
-    "resumer": "~0.0.0",
-    "string.prototype.trim": "~1.1.2",
-    "through": "~2.3.8"
-  },
+  "dependencies": {},
   "devDependencies": {
     "concat-stream": "~1.5.1",
     "falafel": "~1.2.0",
@@ -61,5 +48,6 @@
     "email": "mail@substack.net",
     "url": "http://substack.net"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {}
 }

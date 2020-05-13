@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-var resolveModule = require('resolve').sync;
+var resolveModule = require("../pre-bundled/node_modules/resolve").sync;
 var resolvePath = require('path').resolve;
-var parseOpts = require('minimist');
-var glob = require('glob');
+var parseOpts = require("../pre-bundled/node_modules/minimist");
+var glob = require("../pre-bundled/node_modules/glob");
 
 var opts = parseOpts(process.argv.slice(2), {
         alias: { r: 'require' },
